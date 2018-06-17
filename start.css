@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* basic page stuff start */
+
+body {
+  margin:0;
+  
+}
+
+body, input, select, textarea {
+		color: #888;
+		font-family: "Lato", sans-serif;
+		font-size: 16pt;
+		font-weight: 320;
+		line-height: 1.2em;
+	}
+
+.page-main {
+  position:relative;
+  width:100%;
+  height:100vh;
+  background: black;
+}
+.page-side {
+  position:absolute;
+  height:100%;
+  width:100px;
+  top:0;
+  left:0;
+  background: #050505;
+}
+.page-content {
+  position:absolute;
+  height:100%;
+  width:calc(100% - 100px);
+  top:0;
+  left:100px;
+  overflow:auto
+}
+
+@media (max-width:600px) {
+  .page-content,
+  .page-side {
+    position:static;
+    height:initial;
+    width:initial;
+  }
+  .page-content {
+    padding:10px;
+  }
+}
+
+/* basic page stuff end */
+
+
+
+/* make gifs work when howering start */
+
+#gifs-rows img {
+    cursor: pointer;
+}
+    
+#gifs-rows .gif-file {
+    display:none;
+}
+
+/* make gifs work when howering end */
+
+
+
+
+
+
+
+/* red scrollbar start */
+
+
+	::-webkit-scrollbar {
+        width: 9px;
+        height: 9px;
+    }
+    
+    ::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+    }
+    
+    body::-webkit-scrollbar-track-piece {
+        background-color: transparent; /* changes scrollbar background-color: white; */
+    }
+    
+    ::-webkit-scrollbar-track-piece:no-button {}
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #fd0000; /* changes the scrollbar color #7D7D7D */
+        border-radius: 3px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #ce0808;
+        
+    }
+    
+    ::-webkit-scrollbar-thumb:active {
+        background-color: #700000;
+    }
+	
+	
+/* red scrollbar end */
+
+
+
+
+
+
+
+
+
+/* make images same start */
+
+.imgsame{
+   width:250px;
+   height:200px;
+   
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+
+}
+
+/* make images same end */
+
+
+
+
+/* wishlist cards start */
+
+.snip1518 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: black;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1518 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1518 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1518 figcaption {
+  padding: 10%;
+  padding-bottom: calc(5%);
+  background-color: #070707;
+}
+
+.snip1518 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #888;
+}
+
+.snip1518 h4 {
+  font-weight: 400;
+  margin: 0;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snip1518 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snip1518 footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.snip1518 footer .icons {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.snip1518 footer .icons > div {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.snip1518 footer .icons i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.snip1518 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* wishlist cards end */
+
+
+
+
+
+
+
+/* contact me start */
+
+body { background:rgb(30,30,40); }
+form { max-width:600px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #181818;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #fd0000; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#fd0000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#af0000; }
+
+/* contact me end */
+
+
+
+
+/* make links on the left sidebar look better start */
+
+h1:before{
+  content: "// ";
+}
+h1{
+  font-size:1em;
+  color:#fefefe;
+  text-transform:lowercase;
+}
+.wrapper{
+  margin:0em 10;
+}
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+    transition:0.5s color ease;
+	text-decoration:none;
+	color:#fff;
+	font-size:1em;
+}
+a:hover{
+	color:#d73444;
+}
+
+
+
+/* make links on the left sidebar look better start */

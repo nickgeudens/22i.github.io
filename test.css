@@ -1,0 +1,38 @@
+.container {
+  width: 460px;
+  
+}
+
+imgg {
+  float:right;  
+  clear:both;
+  width: 50% ;
+  margin: 30px -50px 10px 10px ;
+}
+
+/** Image has to be wrapped in div. This creates a shiv to bump down the image and all text to wrap **/
+.rightimage:before {
+  content: '' ;
+  display:block;
+  float: right;
+  height: 200px;
+  
+}
+
+
+/** Not really relevant, just to make it look prettier **/
+
+body { 
+  color: #dedede ;
+  background: #666 ;
+  font-family: Verdana, sans-serif ;
+  line-height: 140% ;
+  font-size: 13px ;
+}
+h1 {
+ font-weight: normal; 
+}
+#con {
+ 	width: 75% ; 
+  margin: 0 auto ;
+}
