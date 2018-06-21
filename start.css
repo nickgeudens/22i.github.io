@@ -166,7 +166,7 @@ body, input, select, textarea {
 }
 
 .snip1518 figcaption {
-  padding: 10%;
+  padding: 4.5%;
   padding-bottom: calc(5%);
   background-color: #070707;
 }
@@ -322,4 +322,36 @@ a:hover{
 
 
 
-/* make links on the left sidebar look better start */
+/* make links on the left sidebar look better end */
+
+
+/** small text spacing start **/
+
+
+.linkcontainer {
+  width: 100%;
+  
+}
+
+
+.container {
+  width: 460px;
+  
+}
+
+body { 
+  color: #dedede ;
+  background: #666 ;
+  font-family: Verdana, sans-serif ;
+  line-height: 140% ;
+  font-size: 13px ;
+}
+h1 {
+ font-weight: normal; 
+}
+#con {
+ 	width: 75% ; 
+  margin: 0 auto ;
+}
+
+/** small text spacing end **/
