@@ -145,8 +145,8 @@ body, input, select, textarea {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 250px;
-  max-width: 310px;
+  min-width: 20px; /* 250 */
+  max-width: 310px; /* 310 */
   width: 100%;
   background-color: black;
   color: #2B2B2B;
@@ -175,8 +175,8 @@ body, input, select, textarea {
 .snip1518 h3 {
   font-family: 'Oswald';
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 20px; /* 20 */
+  font-weight: 400; /* 400 */
   line-height: 24px;
   margin: 3px 0;
   color: #888;
@@ -187,6 +187,7 @@ body, input, select, textarea {
   margin: 0;
   color: #888;
   letter-spacing: 1px;
+  font-size: 15px; /* 20 */
 }
 
 .snip1518 h5 {
@@ -239,7 +240,108 @@ body, input, select, textarea {
 /* wishlist cards end */
 
 
+/* discord cards start */
 
+.snipdiscord {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 20px; /* 250 */
+  max-width: 128px; /* 310 */
+  width: 100%;
+  background-color: black;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snipdiscord * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snipdiscord img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snipdiscord figcaption {
+  padding: 4.5%;
+  padding-bottom: calc(5%);
+  background-color: #070707;
+}
+
+.snipdiscord h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px; /* 20 */
+  font-weight: 400; /* 400 */
+  line-height: 24px;
+  margin: 3px 0;
+  color: #888;
+}
+
+.snipdiscord h4 {
+  font-weight: 400;
+  margin: 0;
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 15px; /* 20 */
+}
+
+.snipdiscord h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snipdiscord footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.snipdiscord footer .icons {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.snipdiscord footer .icons > div {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.snipdiscord footer .icons i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.snipdiscord a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* discord cards end */
 
 
 
@@ -341,8 +443,8 @@ a:hover{
 }
 
 body { 
-  color: #dedede ;
-  background: #666 ;
+  color: #dedede ; /** #dedede **/
+  background: #000 ;
   font-family: Verdana, sans-serif ;
   line-height: 140% ;
   font-size: 13px ;
@@ -356,3 +458,26 @@ h1 {
 }
 
 /** small text spacing end **/
+
+/** screen modify start **/
+
+/**
+ 
+1456 3
+
+1098 2
+
+800 1  txt scramble
+
+600 sidebar becomes topbar
+ 
+ **/
+
+@media (max-width: 600px) {
+
+.snip1518 {
+  margin: 10px 5%;
+    
+}
+
+/** screen modify end **/

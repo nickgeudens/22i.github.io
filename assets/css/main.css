@@ -46,6 +46,130 @@
 	
 	/* custom cursor end */
 	
+    /* wishlist cards start */
+
+.snip1518 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: black;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1518 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1518 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1518 figcaption {
+  padding: 4.5%;
+  padding-bottom: calc(5%);
+  background-color: #070707;
+}
+
+.snip1518 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #888;
+}
+
+.snip1518 h4 {
+  font-weight: 400;
+  margin: 0;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snip1518 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.snip1518 footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.snip1518 footer .icons {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.snip1518 footer .icons > div {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.snip1518 footer .icons i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.snip1518 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* wishlist cards end */
+
+
+/* make links on the left sidebar look better start */
+
+
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+    transition:0.5s color ease;
+	text-decoration:none;
+	color:#fff;
+	font-size:1em;
+}
+a:hover{
+	color:#d73444;
+}
+
+
+
+/* make links on the left sidebar look better end */
+
+
+
 	
 	/* no more white scrolbar hopefuly start */
 	
@@ -2725,7 +2849,7 @@
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 20em;
 			}
 
 				#header > header {
