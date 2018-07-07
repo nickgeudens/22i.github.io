@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,700');
+
+
+
+
+
+
 body{
   background: #000; 
   font-family: 'Roboto', sans-serif; 
   color: #fff;
+  cursor:none;
 }
 .window{
   position: absolute;
