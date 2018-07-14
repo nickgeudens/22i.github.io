@@ -1,5 +1,30 @@
 body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive1 {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.responsive2 {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.responsive3 {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+
 /* @media (min-width:992px) */
 
 @media (min-width:992px)
@@ -57,6 +82,14 @@ section.resume-section .resume-item .resume-date{min-width:none}
 
 
 @media (min-width:1px){body{background-color: black}}
+
+
+  
+  
+  
+  
+  
+  
 
 /* red scrollbar start */
 
