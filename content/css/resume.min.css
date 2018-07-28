@@ -127,7 +127,11 @@ section.resume-section .resume-item .resume-date{min-width:none}
 /* red scrollbar end */
 
 
-
+code {
+	background-color: #161616;
+	border: 1px solid #bd5d38;
+	color: #bd5d38;
+}
 
 
 
