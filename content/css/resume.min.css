@@ -761,6 +761,111 @@ code {
 
 /* discord cards end */
 
+
+/* youtube cards start */
+
+.youtube_tools {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 176px; /* 250 */
+  max-width: 176px; /* 310 */
+  width: 100%;
+  background-color: black;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.youtube_tools * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.youtube_tools img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.youtube_tools figcaption {
+  padding: 4.5%;
+  padding-bottom: calc(5%);
+  background-color: #070707;
+}
+
+.youtube_tools hi3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 15px; /* 20 */
+  font-weight: 400; /* 400 */
+  line-height: 24px;
+  margin: 3px 0;
+  color: #888;
+}
+
+.youtube_tools hi4 {
+  font-weight: 400;
+  margin: 0;
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 10px; /* 20 */
+}
+
+.youtube_tools h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.youtube_tools footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.youtube_tools footer .icons {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.youtube_tools footer .icons > div {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.youtube_tools footer .icons i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.youtube_tools a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* youtube cards end */
+
+
 /* contact me start */
 
 form { max-width:600px; margin:50px auto; }
