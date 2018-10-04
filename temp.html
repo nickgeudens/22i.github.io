@@ -1,111 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>876 Nocturne how to run your own runescape private server rsps localy</title>
-    <link rel="shortcut icon" type="image/png" href="../favicon.png">
-    
-    <script src="content/js/detect.adblocker.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="jquery.fullPage.min.js"></script>
-    <link rel="stylesheet" href="content/css/jquery.fullPage.css">
-    
-    
-
-    <!-- Bootstrap core CSS -->
-    <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="content/vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="content/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="content/css/resume.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">
-        <span class="d-block d-lg-none"><!-- you can put text in here it wilk show up on top bar on small screen size --></span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="content/images/avatar.png" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#start">start</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#commands">commands</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-<!--=======================================================
-*
-* 	 RSPS. line
-*
-* =======================================================-->      
-      
-      
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="start">
-<div class="section my-auto">
-
-<h2>run your own runescape private server rsps localy</h2>
-
-
-<p>i have finaly figured out how to do this with my favourite server i used to play on before it got removed or something? <a href="https://www.rune-server.ee/runescape-development/rs-503-client-server/downloads/673396-876-latest-nocturne-source.html">latest nocturne source</a> </p>
-
-<img src="content/images/tutorials/rsps/nocturne.png"
-title="nocturne"
-alt="nocturne"
-class="responsive">
-
-<p>its <a href="http://runescape.wikia.com/wiki/Build_number">876</a> revision which means its almost upto date only missing 20 updates since newest rs update is 896 </p>
-
-<p> i have been looking around abit and i couldnt find any quests in nocturne </p>
-
-<p> benefits: spawn any item in any quantity, see source code, teleport anywhere, be admin, you can change everything </p>
-
-<p>helfull links  <a href="http://rsps.wikidot.com/">rsps wiki</a> </p>
-
-<p>steps in this tutorial will be similiar to this <a href="https://www.youtube.com/watch?v=bStKjEWtZNw">How To... Make Your Own "Runescape Private Server" "Matrix 718"</a> youtube video just a bit different for 876 rsps  </p>
-
-<p> 1. runescape is made with java so you should install oracle java </p>
-
-
-<p> <code> sudo add-apt-repository ppa:webupd8team/java && sudo apt-get update && sudo apt-get install oracle-java8-installer && echo -e "\n\n\033[32meverything done!" </code></p>
-
-<p> 2. install <a href="https://www.eclipse.org/downloads/packages/">eclipse IDE for java developers</a> </p>
-
-<p> 3. get <a href="https://mega.nz/#!eBNxxCBK!AkThmQYscH34hNbIi0LbFUPyzvsHWPc4vcitNNWC-sQ">server</a> get <a href="https://mega.nz/#!PVVW2RbK!VvfNi2pFxzby16VCSP7A9plCoTjYtpBqrlfaqFv_XYo">client</a> get <a href="https://mega.nz/#!GVUmBC7Q!VTO8lKgyidW_3JO6RNCl2U2PFQMZQiYyYU1fPTwLlgM">876_cache</a>
-</p>
 
 <p> 4. extract them all into one folder </p>
 
-<p> 5. enter extracted 876_cache folder copy its contents into nocturne-rs3/data/cache </p>
+<p> 5. enter extracted 876_cache folder copy its contents into server source folder - nocturne-rs3/data/cache </p>
 
 <p> 6. copy 876_cache into your home directory <code> $HOME </code> </p>
 
 <p> - open server source folder nocturne-rs3/src/net/nocturne/ </p>
 
-<p> - open settings.java with kate text editor</p>
+<p> - open settings.java with text editor</p>
 
 <p> edit line 34 <code> public static final String VPS1_IP = HOSTED ? "104.155.26.178" </code> </p>
 
@@ -133,7 +35,7 @@ class="responsive">
 
 <p> - open client source folder nocturne-rs3-client/src/com/ </p>
 
-<p> - open RS3Applet.java with kate text editor </p>
+<p> - open RS3Applet.java with text editor </p>
 
 <p> edit line 82 <code> public static String HOST_ADDRESS = RSPS ? "64.94.101.104" : "world2.runescape.com"; </code> </p>
 
@@ -147,7 +49,7 @@ class="responsive">
 
 <p> - close welcome screen again </p>
 
-<p> - now i like to change the theming so press on the Window menu - Preferences </p>
+<p> - now its the time to change the theming so press on the Window menu - Preferences </p>
 
 <p> - in preferences window expand General then appearance choose Dark mac os x </p>
 
@@ -160,7 +62,7 @@ title="choose general - Existing Projects into Workspace then press Next"
 alt="choose general - Existing Projects into Workspace then press Next"
 class="responsive">
 
-<p> 10. put path to the folder where you extracted the server and client in step 4 then click Browse to the right make sure 876 V2 Deob and Nocturne RS3 are both selected then press finish </p>
+<p> 10. put path to the folder where you extracted the server and client in step 4 then click Browse to the right. Make sure 876 V2 Deob and Nocturne RS3 are both selected then press finish </p>
 
 <p> - you should see Building workspace in the botom right wait till its done building </p>
 
@@ -191,7 +93,7 @@ class="responsive">
 
 <p> - switch to Arguments tab and insert <code> 1 true true </code>  press Apply then Run</p>
 
-<p> - i found this argument in nocturne-rs3 folder - Alpha World.sh </p>
+<p> - this argument was in nocturne-rs3 folder - Alpha World.sh </p>
 
 <img src="content/images/tutorials/rsps/arguments.png"
 title="search for engine then press ok now the server is running"
@@ -208,9 +110,7 @@ class="responsive">
 
 <p> in server source folder nocturne-rs3/information/ you can find itemList.txt where all the item ids are</p>
 
-</section>
 
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="commands">
 
 <!--=======================================================
 *
@@ -480,35 +380,3 @@ class="responsive">
 <p> <code> ::resetprices </code> </p>
 
 <p> <code> ::item 1477 51 false </code> </p>
-
-
-</div>
-</section>
-
-
-
-
-
-     
-    </div>
-
-    
-    <script>
-                $(document).ready(function () {
-                    $('#wrapper').fullpage();
-                });
-	</script>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="content/vendor/jquery/jquery.min.js"></script>
-    <script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="content/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="content/js/resume.min.js"></script>
-
-  </body>
-
-</html>
