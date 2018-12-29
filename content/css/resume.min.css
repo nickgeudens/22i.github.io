@@ -61,11 +61,11 @@ h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-fa
 
 .list-icons .list-inline-item i:hover{color:#bd5d38}
 
-#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}
+#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase;overflow:auto}
 
 @media (min-width:992px)
 
-{#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}
+{#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh;overflow:auto}
 
 #sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}
 
@@ -1158,3 +1158,14 @@ body {
   border-radius: 100%;
   
 /* icon links 16 end */
+
+/* mouse trail start */
+
+canvas{
+  margin: 0;
+  padding: 0;
+  display: block; /*  ¯\_(ツ)_/¯  */
+  touch-action: none; 
+}
+
+/* mouse trail end */
