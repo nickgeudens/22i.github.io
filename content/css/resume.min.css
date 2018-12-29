@@ -142,11 +142,11 @@ section.resume-section .resume-item .resume-date{min-width:none}
 /* red scrollbar end */
 
 
-code {
+/*code {
 	background-color: #161616;
-	border: 1px solid #bd5d38;
+	border: 2px solid #bd5d38;
 	color: #bd5d38;
-}
+}*/
 
 
 
@@ -1169,3 +1169,99 @@ canvas{
 }
 
 /* mouse trail end */
+
+/* code copy to clipboard start */
+
+body{
+  font-family:Arial, sans-serif;
+}
+
+.codeclipboard{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+
+}
+
+.codeclipboard div{
+  width:300px;
+  background:#eaeaea;
+  padding:8px;
+  border-radius:2px;
+  position:relative;
+  margin-bottom:10px;
+}
+
+.codeclipboard div span.copy{
+  height:17px;
+  display:block;
+  max-width:204px;
+  overflow:hidden;
+  white-space:nowrap;
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  word-wrap:break-word;
+  position:relative;
+  top:-1px;
+}
+
+.codeclipboard div span.copy::before{
+  content:'';
+  position:absolute;
+  height:100%;
+  width:30px;
+  top:0;
+  right:-1px;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+1,eaeaea+100&0+0,1+100 */
+background: -moz-linear-gradient(left, rgba(234,234,234,0) 0%, rgba(234,234,234,0.01) 1%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(234,234,234,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(234,234,234,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00eaeaea', endColorstr='#eaeaea',GradientType=1 ); /* IE6-9 */
+}
+
+.codeclipboard div button{
+  position:absolute;
+  height:100%;
+  width:95px;
+  right:0;
+  top:0;
+  background:#0896ff;
+/*   background:#000000; */
+  border:none;
+  outline:none;
+  border-radius:3px;
+  color:#fff;
+  cursor:pointer;
+}
+
+.codeclipboard div button:active{
+  background:#003580;
+  transform: scale(0.9);
+}
+
+.icon-copy{
+  font-size:11px;
+  position:relative;
+  top:-1px;
+  margin-right:2px;
+}
+
+.confirmation{
+  background:#feba01;
+  color:#383838;
+  padding:10px 15px;
+  border-radius:3px;
+  display:none;
+  position:fixed;
+  bottom:20px;
+  left:20px;
+}
+
+
+/* code copy to clipboard end */

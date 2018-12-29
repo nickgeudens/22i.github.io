@@ -13,9 +13,9 @@
     
     
     <script src="jquery-3.2.1.min.js"></script>
-    <script src="jquery.fullPage.min.js"></script>
-    <link rel="stylesheet" href="content/css/jquery.fullPage.css">
+    <script src="content/js/clipboard.js"></script>
     
+    <link rel="stylesheet" href="content/css/font-awesome.min.css">
     
 
     <!-- Bootstrap core CSS -->
@@ -31,6 +31,9 @@
     <!-- Custom styles for this template -->
     <link href="content/css/resume.min.css" rel="stylesheet">
 
+    
+    
+    
   </head>
 
   <body id="page-top">
@@ -53,6 +56,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#windows">windows</a>
           </li>
+          <div class="confirmation"> <span class="icon-checkmark"></span> </div>
         </ul>
       </div>
     </nav>
@@ -107,11 +111,37 @@
 <br>
 <br>to get it working on linuxes based on ubuntu you first need to run this command - it makes sure you got everything needed installed
 
-<br> <code>sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"</code> 
+
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy2clip</button>
+  </div>
+  
+</div>
+
+
+
 
 <br>
 <br> now run this in a folder you would like to vid guystanding
-<br><code> wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "$PWD/simple plan-last one standing.mp3" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive && echo -e "\n\n\033[32meverything downloaded! run guystanding.kdenlive and start editing!"</code>
+
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "$PWD/simple plan-last one standing.mp3" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive && echo -e "\n\n\033[32meverything downloaded! run guystanding.kdenlive and start editing!"</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy2clip</button>
+  </div>
+  
+</div>
+
 
 </hi4>
 
@@ -122,7 +152,18 @@
 <br>
 <br> <hi4> to get it working on windows10 -install <a id="windows" href="https://files.kde.org/kdenlive/release/kdenlive-Applications_18.12-9b7b423f2-windows-mingw_64-gcc.exe">Kdenlive</a> just in case link scroll down a bit to <a href="https://kdenlive.org/en/download/">find windows version</a>
 <br>-click on start to open the windows10 start menu and start typing powershell till you find powershell then right click on it and choose run as administrator. once the powershell opens up copy this command into it and press enter
-<br><code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code>
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy2clip</button>
+  </div>
+  
+</div>
+
 <br>it will install itself. After installing it will prompt you to restart so just restart.
 
 <br>-open microsoft store and search for ubuntu 18.04 LTS
@@ -130,11 +171,30 @@
 <br>-then you enter name and password for ubuntu dont forget name and password write it down somewhere
 <br>-once its ready you can paste command in there by right clicking this one makes sure you got everything needed installed
 
-<br> <code>sudo apt install python wget git -y && sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl</code> 
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>sudo apt install python wget git -y && sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy2clip</button>
+  </div>
+  
+</div>
 
 <br>
 <br> replace every i1 with your windows 10 username - you can do this by copying below text into notepad and using CTRL+F to find i1 then replace every i1 with your windows10 username
-<br><code>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "/mnt/c/Users/i1/Downloads/simple plan-last one standing.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive -O /mnt/c/Users/i1/Downloads/guystanding.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the guystanding.kdenlive project in your downloads folder and start editing!"</code>
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "/mnt/c/Users/i1/Downloads/simple plan-last one standing.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive -O /mnt/c/Users/i1/Downloads/guystanding.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the guystanding.kdenlive project in your downloads folder and start editing!"</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy2clip</button>
+  </div>
+  
+</div>
 
 </hi4>
 
@@ -163,7 +223,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="content/js/resume.min.js"></script>
-
+    
+    <script src="content/js/clipboard.js"></script>
+    
+    
+    
   </body>
 
 </html>
