@@ -16,8 +16,10 @@ var mouse = {
 }
 window.addEventListener('mousemove',
     function (event) {
-        mouse.x = event.x;
-        mouse.y = event.y;
+        mouse.x = event.x-260;
+        mouse.y = event.y+15;
+//         mouse.x = event.x;
+//         mouse.y = event.y;
         drawCircles();
     }
 )
@@ -115,13 +117,13 @@ function animate() {
 initCanvas();
 animate();
 
-// This is just for demo purposes :
-for (let i = 1; i < 110; i++) {
-    (function (index) {
-        setTimeout(function () { 
-            mouse.x = 100 + i * 10;
-            mouse.y = 100;
-            drawCircles();
-         }, i * 10);
-    })(i);
-}
+// // This is just for demo purposes :
+// for (let i = 1; i < 110; i++) {
+//     (function (index) {
+//         setTimeout(function () { 
+//             mouse.x = 100 + i * 10;
+//             mouse.y = 100;
+//             drawCircles();
+//          }, i * 10);
+//     })(i);
+// }
