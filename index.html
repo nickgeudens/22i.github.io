@@ -58,7 +58,7 @@
             <a class="nav-link js-scroll-trigger" href="#programs">programs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#chrome">chrome</a>
+            <a class="nav-link js-scroll-trigger" href="#extensions">extensions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#android236">android 2.3.6</a>
@@ -76,8 +76,12 @@
             <a class="nav-link js-scroll-trigger" href="#questions">???????</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#mousetrail">mousetrail</a>
+            <a class="nav-link js-scroll-trigger" href="#trail">trail</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#clip">clip</a>
+          </li>
+          <div class="confirmation"> <span class="icon-checkmark"></span> </div>
         </ul>
       </div>
     </nav>
@@ -103,6 +107,8 @@
           
 <!-- gives link to adblocker if not instaled -->
 
+<!-- you can change the text in the content/js/detect.adblocker.js -->
+
 <div class="mb-5" id="result">
 </div>
 
@@ -127,17 +133,16 @@
 
 <div class="category">
 
+<div class="item">
+<a href="https://discord.gg/NGaJPJV"><span class="iconyshape"><img src="content/images/discord.ico"></span>Modus Pwnens</a>
+</div>
 
 <div class="item">
 <a href="https://discord.gg/uW8MHmS"><span class="iconyshape"><img src="content/images/discord.ico"></span>Goodless Discord</a>
 </div>
 
-<!--<div class="item">
-<a href="https://discord.gg/NGaJPJV"><span class="iconyshape"><img src="content/images/discord.ico"></span>Modus Pwnens</a>
-</div>-->
-
 <div class="item">
-<a href="https://codepen.io/"><span class="iconyshape"><img src="content/images/codepen.ico"></span>codepen.io</a>
+<a href="https://codepen.io/pens/picks/"><span class="iconyshape"><img src="content/images/codepen.ico"></span>codepen.io</a>
 </div>
 
 <div class="item">
@@ -150,18 +155,6 @@
 
 <div class="item">
 <a href="https://gist.github.com/discover"><span class="iconyshape"><img src="content/images/github.ico"></span>gists</a>
-</div>
-
-<div class="item">
-<a href="https://rutracker.org/forum/viewforum.php?f=1992"><span class="iconyshape"><img src="content/images/rutracker.ico"></span>games</a>
-</div>
-
-<div class="item">
-<a href="https://github.com/search?o=desc&q=minetest&s=updated&type=Repositories"><span class="iconyshape"><img src="content/images/github.ico"></span>minetest</a>
-</div>
-
-<div class="item">
-<a href="https://github.com/search?o=desc&q=godot&s=updated&type=Repositories"><span class="iconyshape"><img src="content/images/github.ico"></span>godot</a>
 </div>
 
 <div class="item">
@@ -187,6 +180,22 @@
 </div>
 
 <div class="item">
+<a href="https://rutracker.org/forum/viewforum.php?f=1992"><span class="iconyshape"><img src="content/images/rutracker.ico"></span>games</a>
+</div>
+
+<div class="item">
+<a href="https://github.com/search?o=desc&q=minetest&s=updated&type=Repositories"><span class="iconyshape"><img src="content/images/github.ico"></span>minetest</a>
+</div>
+
+<div class="item">
+<a href="https://github.com/search?o=desc&q=godot&s=updated&type=Repositories"><span class="iconyshape"><img src="content/images/github.ico"></span>godot</a>
+</div>
+
+<div class="item">
+<a href="https://www.gamingonlinux.com/"><span class="iconyshape"><img src="content/images/gamingonlinux.ico"></span>gamingonlinux</a>
+</div>
+
+<div class="item">
 <a href="https://get.adobe.com/flashplayer/"><span class="iconyshape"><img src="content/images/adobeflash.ico"></span>get flash</a>
 </div>
 
@@ -195,7 +204,7 @@
 </div>
 
 <div class="item">
-<a href="https://www.y8.com/tags/flash?order=date"><span class="iconyshape"><img src="content/images/y8.png"></span>y8flash</a>
+<a href="https://www.y8.com/tags/flash?order=date"><span class="iconyshape"><img src="content/images/y8.png"></span>y8</a>
 </div>
 
 <div class="item">
@@ -272,6 +281,14 @@
 <a href="http://www.fromtexttospeech.com/"><span class="iconyshape"><img src="content/images/favicon.ico"></span>fromtexttospeech</a>
 </div>
 
+<div class="item">
+<a href="https://acapela-box.com/AcaBox/index.php"><span class="iconyshape"><img src="content/images/acapela.ico"></span>acapela</a>
+</div>
+
+<div class="item">
+<a href="https://ebralec.si/branje/?jezik=en"><span class="iconyshape"><img src="content/images/ebralec.ico"></span>ebralec</a>
+</div>
+
 </div>
 
 
@@ -331,10 +348,6 @@
 
 <div class="item">
 <a href="http://rarbgto.org/torrents.php"><span class="iconyshape"><img src="content/images/rarbgto.ico"></span>get movies</a>
-</div>
-
-<div class="item">
-<a href="https://acapela-box.com/AcaBox/index.php"><span class="iconyshape"><img src="content/images/acapela.ico"></span>text 2 speech</a>
 </div>
 
 <div class="item">
@@ -521,6 +534,9 @@
 *
 * =======================================================-->         
 
+
+
+
 <div class="category">
 
 <div class="item">
@@ -623,11 +639,53 @@
       
       
       
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="chrome">
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="extensions">
 <div class="section my-auto">
 
 
+
 <div class="category">
+
+
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>uBlock Origin</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Stylus</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Reddit Enhancement Suite</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Firefox Multi-Account Containers</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/firefox-color-prod/?src=search"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Firefox Color</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/default-bookmark-folder/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Default Bookmark Folder</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/browsec/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>Browsec VPN</a>
+</div>
+
+<div class="item">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/http-header-live/"><span class="iconyshape"><img src="content/images/firefox1.ico"></span>HTTP Header Live</a>
+</div>
+
+</div>
+
+
+<div class="category">
+
+<!-- chrome_web_store.png -->
 
 <div class="item">
 <a href="https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en"><span class="iconyshape"><img src="content/images/Chrome extension source viewer.png"></span>view extension source</a>
@@ -1207,7 +1265,7 @@
 </div>
 </section>
 
-<section class="d-flex flex-column" id="mousetrail">
+<section class="d-flex flex-column" id="trail">
 
 <!-- mousetrail without class fixes trail location but bugs out the scrollbar -->
 <!-- <section class="" id="mousetrail"> -->
@@ -1221,7 +1279,65 @@
      
     </div>
 
-    
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="clip">
+        <div class="section my-auto">
+
+        
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>clipboard library is work in progress</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy</button>
+  </div>
+  
+</div>
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>since if you press copy then paste into text</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy</button>
+  </div>
+  
+</div>
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>there are spaces in between</code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy</button>
+  </div>
+  
+</div>
+
+<div class="codeclipboard">
+  <div>
+    <span class="copy">
+      <code>it should work like <a href="https://codepen.io/AndreCortellini/pen/pdZjvQ">this</a> </code>     
+    </span>
+    <button>
+      <span class="icon-copy"></span>copy</button>
+  </div>
+  
+</div>
+
+<div class="category">
+
+<div class="item">
+<a href="https://empty.com/"><span class="iconyshape"><img src="content/images/favicon.ico"></span>empty</a>
+</div>
+
+</div>
+        
+        
+</div>
+</section>
     
     
     
@@ -1236,6 +1352,7 @@
     <!-- Custom scripts for this template -->
     <script src="content/js/resume.min.js"></script>
     
+    <script src="content/js/clipboard.js"></script>
     
     <script src="content/js/mousetrail.js"></script>
 

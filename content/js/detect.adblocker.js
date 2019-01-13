@@ -5,7 +5,7 @@ function init(){
     if(blocked){
       document.getElementById('result').innerHTML = '';
     } else {
-      document.getElementById('result').innerHTML = 'ProTip: you can get rid of all annoying advertisements from every website with ublock origin - get it for <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">firefox</a> ';
+      document.getElementById('result').innerHTML = 'ProTip: you can get rid of all annoying advertisements from every website with <a href="https://github.com/gorhill/uBlock">ublock origin</a> - get it for <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">firefox</a> ';
     }
   })
 }
