@@ -16,7 +16,7 @@
     <script src="content/js/clipboard.js"></script>
     
     <link rel="stylesheet" href="content/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="content/css/clipboard.css">
 
     <!-- Bootstrap core CSS -->
     <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -139,32 +139,25 @@
 
 ubuntu linux setup you first need to run this command - it makes sure you got everything needed installed
 
-
-
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+  <div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"">sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sudo apt install python wget git kdenlive youtube-dl -y && echo -e "\n\n\033[32meverything is ready for vidding!"" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
 
 <br> <hi4> windows10 setup -install <a href="https://files.kde.org/kdenlive/release/kdenlive-Applications_18.12-9b7b423f2-windows-mingw_64-gcc.exe">Kdenlive</a> just in case link scroll down a bit to <a href="https://kdenlive.org/en/download/">find windows version</a>
 <br>-click on start to open the windows10 start menu and start typing powershell till you find powershell then right click on it and choose run as administrator. once the powershell opens up copy bellow command into it and press enter
 
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
+
 
 <br>it will install itself. After installing it will prompt you to restart so just restart.
 
@@ -173,15 +166,22 @@ ubuntu linux setup you first need to run this command - it makes sure you got ev
 <br>-then you enter name and password for ubuntu dont forget name and password write it down somewhere
 <br>-once its ready you can paste bellow command in there by right clicking - this command makes sure you got everything needed installed
 
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>sudo apt install python wget git -y && sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="sudo apt install python wget git -y && sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl">sudo apt install python wget git -y && sudo curl -L ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="sudo apt install python wget git -y && sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
+</div>
+
+<br>- to keep it working if error pops up you can update youtube-dl by running
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy='sudo pip install --upgrade youtube-dl'>sudo pip install --upgrade youtube-dl</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='sudo pip install --upgrade youtube-dl' title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
 
 <br>
@@ -200,31 +200,25 @@ ubuntu linux setup you first need to run this command - it makes sure you got ev
 
 <br> ubuntu linux now run this in a folder you would like to vid guystanding
 
-
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "$PWD/simple plan-last one standing.mp3" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive && echo -e "\n\n\033[32meverything downloaded! run guystanding.kdenlive and start editing!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy='wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "$PWD/simple plan-last one standing.mp3" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive && echo -e "\n\n\033[32meverything downloaded! run guystanding.kdenlive and start editing!"'>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "$PWD/simple plan-last one standing.mp3" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive && echo -e "\n\n\033[32meverything downloaded! run guystanding.kdenlive and start editing!"' title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
+
 
 </hi4>
 
 <br> windows10 replace every i1 with your windows 10 username - you can do this by copying below text into notepad and using CTRL+F to find i1 then replace every i1 with your windows10 username
 
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "/mnt/c/Users/i1/Downloads/simple plan-last one standing.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive -O /mnt/c/Users/i1/Downloads/guystanding.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the guystanding.kdenlive project in your downloads folder and start editing!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy='wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "/mnt/c/Users/i1/Downloads/simple plan-last one standing.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive -O /mnt/c/Users/i1/Downloads/guystanding.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the guystanding.kdenlive project in your downloads folder and start editing!"'>wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='wget "https://docs.google.com/uc?id=17pv_uV8kLZSfoAgo-EfEXL_MgRo4uTtr&export=download" -O "/mnt/c/Users/i1/Downloads/simple plan-last one standing.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/guystanding.kdenlive -O /mnt/c/Users/i1/Downloads/guystanding.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=K34j3YQprgk" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the guystanding.kdenlive project in your downloads folder and start editing!"' title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
 
 </hi4>
@@ -243,32 +237,27 @@ ubuntu linux setup you first need to run this command - it makes sure you got ev
 
 <br> ubuntu linux now run this in a folder you would like to vid danger
 
-
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "$PWD/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run danger.kdenlive and start editing!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy='wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "$PWD/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run danger.kdenlive and start editing!"'>wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "$PWD/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "$PWD/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run danger.kdenlive and start editing!"' title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
 
 </hi4>
 
 <br> windows10 replace every i1 with your windows 10 username - you can do this by copying below text into notepad and using CTRL+F to find i1 then replace every i1 with your windows10 username
 
-<div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "/mnt/c/Users/i1/Downloads/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the danger.kdenlive project in your downloads folder and start editing!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy='wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "/mnt/c/Users/i1/Downloads/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the danger.kdenlive project in your downloads folder and start editing!"'>wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='wget "https://docs.google.com/uc?id=16WHflYoCkQZRIoeS4pIfGbwpJrjiTI5i&export=download" -O "/mnt/c/Users/i1/Downloads/David Guetta - Dangerous (Lyric Video) ft Sam Martin.mp3" && wget https://github.com/22i/mykdenliveprojects/raw/master/danger.kdenlive && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=O0NBTjhjshc" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=ylvMT4VcZM0" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=Z6W8R8V3SLI" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=qBH3tEEp_oo" && youtube-dl --newline -i -o "/mnt/c/Users/i1/Downloads/%(title)s.%(ext)s" --ignore-config --hls-prefer-native "https://www.youtube.com/watch?v=jjH2DRDSrYU" && echo -e "\n\n\033[32meverything downloaded! run kdenlive then open the danger.kdenlive project in your downloads folder and start editing!"' title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
+
+
 
 </hi4>
 
@@ -280,11 +269,6 @@ ubuntu linux setup you first need to run this command - it makes sure you got ev
     </div>
 
     
-    <script>
-                $(document).ready(function () {
-                    $('#wrapper').fullpage();
-                });
-	</script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="content/vendor/jquery/jquery.min.js"></script>
@@ -297,7 +281,7 @@ ubuntu linux setup you first need to run this command - it makes sure you got ev
     <script src="content/js/resume.min.js"></script>
     
     <script src="content/js/clipboard.js"></script>
-    
+    <script  src="content/js/clipboard22i.js"></script>
     
     
   </body>

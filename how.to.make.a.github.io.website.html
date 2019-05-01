@@ -15,7 +15,7 @@
     <script src="jquery-3.2.1.min.js"></script>
     <script src="jquery.fullPage.min.js"></script>
     <link rel="stylesheet" href="content/css/jquery.fullPage.css">
-    
+    <link rel="stylesheet" href="content/css/clipboard1.css">
     
 
     <!-- Bootstrap core CSS -->
@@ -113,32 +113,26 @@
   <div class="img"><img src="content/images/tutorials/how.to.make.a.github.io.website/5.png" id="5" class="responsive800" title="step 5" alt="sample101" /></div>
   <figcaption> <hi4> 5. </hi4> <hi4> now go to your websites folder (a folder where you keep most of your websites) and open terminal from there and write this in
   
-  <div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>git clone</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+  <div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="git clone">git clone</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="git clone" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
   
   
   also paste in the link you copied in step 4. After this run
-  
-    <div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>git config --global user.email "you@example.com" && git config --global user.name "Your Name"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="git config --global user.email "you@example.com" && git config --global user.name "Your Name"">git config --global user.email "you@example.com" && git config --global user.name "Your Name"</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="git config --global user.email "you@example.com" && git config --global user.name "Your Name"" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
 </div>
-  
-  
+
+
 replace you@example.com with email you used to register your github account. Replace Your Name with your github username as seen in step 3. </hi4> </figcaption>
 </figure>
 
@@ -150,18 +144,15 @@ replace you@example.com with email you used to register your github account. Rep
 <figure class="snip_tuts">
   <div class="img"><img src="content/images/tutorials/how.to.make.a.github.io.website/7.png" id="7" class="responsive800" title="step 7" alt="sample101" /></div>
   <figcaption> <hi4> 7. </hi4> <hi4> now open terminal from the <green> left </green> folder (look at step 6) and execute this command there
-  
-   <div class="codeclipboard">
-  <div>
-    <span class="copy">
-      <code>git add . && echo tracked and staged all files && git commit -m "amazing" && echo commited localy with a message && git push origin master && echo pushed changes to the internet && echo -e "\n\n\033[32meverything done!"</code>     
-    </span>
-    <button>
-      <span class="icon-copy"></span>copy</button>
-  </div>
-  
-</div>
-  
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-copy="git add . && echo tracked and staged all files && git commit -m "amazing" && echo commited localy with a message && git push origin master && echo pushed changes to the internet && echo -e "\n\n\033[32meverything done!"">git add . && echo tracked and staged all files && git commit -m "amazing" ...</button>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="git add . && echo tracked and staged all files && git commit -m "amazing" && echo commited localy with a message && git push origin master && echo pushed changes to the internet && echo -e "\n\n\033[32meverything done!"" title="Copy to clipboard">
+      <!-- icon from google's material design library -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="grey" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+    </button>
+</div>  
+
   
   
 from this momment forward you can repeat step 7 to update your website </hi4> </figcaption>
